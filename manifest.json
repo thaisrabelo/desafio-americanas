@@ -1,9 +1,11 @@
 {
-  "name":"Americanas Indica",
-  "version":"1.0",
-  "description":"Indica produtos do site Americanas.com com base na navegação do usuário",
-  "browser_action":{
-      "default_popup":"indica.html"
+  "name": "Americanas Indica",
+  "version": "1.0",
+  "description": "Indica produtos do site Americanas.com com base na navegação do usuário",
+  "browser_action": {
+    "default_popup": "indica.html"
   },
-  "manifest_version":2
+  "manifest_version": 2
 }
+
+// Nesse manifest.json precisaremos de um deafult_title: indicando o nome do popup, só por padrão
