@@ -11,26 +11,42 @@
   </body>
 </html>
 
-/* Precisamos criar um indica.js que permita utilizarmos o js. Precisamos linkar
-o js no html tbm: https://www.youtube.com/watch?v=Ipa58NVGs_c no html podemos
-fazer da seguinte forma, em ordem de "parentesco": pai: fundo branco (container)
-filho: header vermelho (container) filho-1: title e search bar (lembrando que a
-search bar no clique e na edição de texto chama uma função no js e essa função
-do js ve o que foi escrito e o que foi alterado) na search bar, ao clicar no
-ícone de pesquisa ela chama uma função do js que envia para a "api" (essa não
-precisa existir pois podemos mockar, se der tempo o gabriel vai fazer) nessa
-chamada ela vai buscar os itens do json de acordo com o que você digitou.
-filho-2: container que vai englobar os resultados filho: container que vai
-englobar o titulo e a lista (aqui ele vai puxar "x" itens conforme o resultado
-do json indica). filho: titulo "com base nas suas compras" filho: container com
-os resultados do json filho: foto do produto a esquerda, filho: nome do item
-(nome do item) filho: foto das estrelas filho: valor do produto filho: container
-que vai englobar o titulo e a lista 2 (aqui ele vai puxar "x" itens conforme o
-resultado do json indica). filho: titulo "promoções da sua lista" filho:
-container com os resultados do json filho: foto do produto a esquerda filho:
-nome do item (nome do item) filho: foto das estrelas filho: valor do produto
-filho: valor do desconto PS: no caso, qualquer api de produtos que contenha,
-título do produto, preço e valor do desconto resolve nosso problema. PS: indico
-fortemente o uso de flexbox no css, qualquer coisa só chamar, mas vou indicar
-alguns links. https://origamid.com/projetos/flexbox-guia-completo/ PS: SÓ BORA
-CAMPEÃ!!! */
+
+/*
+ Precisamos criar um indica.js que permita utilizarmos o js.
+ Precisamos linkar o js no html tbm: https://www.youtube.com/watch?v=Ipa58NVGs_c
+ no html podemos fazer da seguinte forma, em ordem de "parentesco":
+ pai: fundo branco (container)
+
+  filho: header vermelho (container)
+
+    filho-1: title e search bar (lembrando que a search bar no clique e na edição de texto chama uma função no js
+    e essa função do js ve o que foi escrito e o que foi alterado)
+    na search bar, ao clicar no ícone de pesquisa ela chama uma função do js que envia para a "api" 
+    (essa não precisa existir pois podemos mockar, se der tempo o gabriel vai fazer)
+    nessa chamada ela vai buscar os itens do json de acordo com o que você digitou.
+
+    filho-2: container que vai englobar os resultados
+      filho: container que vai englobar o titulo e a lista (aqui ele vai puxar "x" itens conforme o resultado do json indica).
+        filho: titulo "com base nas suas compras" 
+        filho: container com os resultados do json
+          filho: foto do produto a esquerda, 
+          filho: nome do item (nome do item)
+          filho: foto das estrelas
+          filho: valor do produto
+
+      filho: container que vai englobar o titulo e a lista 2 (aqui ele vai puxar "x" itens conforme o resultado do json indica).
+      filho: titulo "promoções da sua lista"
+        filho: container com os resultados do json
+          filho: foto do produto a esquerda
+          filho: nome do item (nome do item)
+          filho: foto das estrelas
+          filho: valor do produto
+          filho: valor do desconto
+
+
+  PS: no caso, qualquer api de produtos que contenha, título do produto, preço e valor do desconto resolve nosso problema.
+  PS: indico fortemente o uso de flexbox no css, qualquer coisa só chamar, mas vou indicar alguns links. 
+    https://origamid.com/projetos/flexbox-guia-completo/
+  PS: SÓ BORA CAMPEÃ!!! 
+*/
