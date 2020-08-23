@@ -5,6 +5,10 @@
   "browser_action": {
     "default_popup": "indica.html"
   },
+  "icons": {
+      "24": "./images/extensao24.png",
+      "48": "./images/extensao48.png"
+  },
   "manifest_version": 2
 }
 
