@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 300px;
+}
+
+#header {
+  background-color: #e60014;
+  margin-bottom: 20px;
+
+}
+
+#line {
+  width: 100px;
+  height: 5px;
+  background-color: #ffffff;
+}
+
+#line:first-child {
+  margin-top: 50px;
+}
+
+#header h1{
+  color: #ffffff;
+  text-align: center;
+}
+
+#americanas-indica {
+
+}
