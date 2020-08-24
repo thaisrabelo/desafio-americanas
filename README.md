@@ -38,6 +38,8 @@ Ela também mostra itens da sua lista de desejos que estão em promoção.
 
 Aplicação feita com HTML, Javascript e CSS.
 
+Link do design: https://xd.adobe.com/view/349ee712-ea7c-4300-67fa-b0d8f08c6f24-42af/
+
 ## Show your support
 
 Give a ⭐️ if this project helped you!
