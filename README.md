@@ -22,7 +22,7 @@ Em seguida é necessário habilitar a opção de desenvolvedor das extensões:
 - Carregue a pasta do repositório
 - Habilite a extensão
 
-![](https://imgur.com/a/4gpvf4P)
+![](https://i.imgur.com/tfbdWgJ.gif)
 
 
 
